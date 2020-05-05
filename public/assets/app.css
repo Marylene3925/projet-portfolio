@@ -1,0 +1,22 @@
+body{font-family: Radikal,sans-serif; letter-spacing: 3px;}
+.container{max-width: 1540px;background-color: #f8f8f8;}
+/* wordspacing */
+.word-spacing-1{word-spacing: 0.5rem;}
+/* font-sizes */
+.fts1{font-size: 3.5rem;} .fts2{font-size: 2rem;} .fts3{font-size: 0.75rem;} .fts4{font-size: 3rem;} .fts5{font-size: 1.5rem;}
+/* padding  */
+.pt-7{padding-top: 7rem;}.pt-6{padding-top: 6rem;} .pt-9{padding-top: 9rem;}
+.pb-7{padding-bottom: 7rem;} 
+/* partie du header */
+.partie-header{height: 100vh;}
+/* partie présentation */
+.title-partie{font-weight: 700;}
+.presentation{position: relative;}
+.text-presentation{position: absolute; z-index: 1;  line-height: 64px; font-weight: 500; }
+.biographie{line-height: 40px; font-weight: 100;}
+/* partie réalisation */
+li{list-style: none;}
+
+  .bootstrap:hover {
+    content: 'Text affiche lors du hover';
+  }
