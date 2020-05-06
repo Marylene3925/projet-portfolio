@@ -10,13 +10,15 @@
 
     <div  class="container">
 
+    	
+           	{% include "Portfolio/navbar.html.twig" %}  
+
 		<div class="partie-header border-bottom border-dark">			
 				<div > 
 					partie header
 				</div>				
 		</div>
-
-
+        
 
         <div class="partie-presentation  border-bottom border-dark ">
     
@@ -113,25 +115,19 @@
 
 
 		
-        <div class="partie-réalisations  border-bottom border-dark " id="réalisations">
-			
+        <div class="partie-réalisations  border-bottom border-dark  pb-7 " id="réalisations" >			
 				
            <div class="d-flex justify-content-center text-uppercase font-weight-bold fts3 mb-2 pt-5 title-partie">
                  <p>Mes réalisations <br> <span class="d-flex justify-content-center word-spacing-1"> &#47;  &#47;  &#47; </span> </p>                   
-           </div>  
+           </div> 
 
-            <div class=" d-flex justify-content-end">
-                <ul>
-                    <li class="bootstrap"><a href="#réalisations">B</a></li>
-                    <li><a href="#réalisations">J</a></li>
-                    <li><a href="#réalisations">P</a></li>
-                    <li><a href="#réalisations">w</a></li>
-                </ul>                
-		    </div>				
-		</div>
+           	{% include "Portfolio/bootstrap.html.twig" %}
+                   
+        </div>     
 
 
-         <div class="partie-contact  border-bottom border-dark">
+         
+        <div class="partie-contact  border-bottom border-dark">
 			
 				<div > 
 					Mon parcours
@@ -148,6 +144,8 @@
 				</div>
 				
 		</div>	
+
+   
 
 	</div>		
 		

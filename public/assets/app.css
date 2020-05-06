@@ -3,7 +3,7 @@ body{font-family: Radikal,sans-serif; letter-spacing: 3px;}
 /* wordspacing */
 .word-spacing-1{word-spacing: 0.5rem;}
 /* font-sizes */
-.fts1{font-size: 3.5rem;} .fts2{font-size: 2rem;} .fts3{font-size: 0.75rem;} .fts4{font-size: 3rem;} .fts5{font-size: 1.5rem;}
+.fts1{font-size: 3.5rem;} .fts2{font-size: 2rem;} .fts3{font-size: 0.80rem;} .fts4{font-size: 3rem;} .fts5{font-size: 1.5rem;} .fts6{font-size: 1.2rem;}
 /* padding  */
 .pt-7{padding-top: 7rem;}.pt-6{padding-top: 6rem;} .pt-9{padding-top: 9rem;}
 .pb-7{padding-bottom: 7rem;} 
@@ -15,8 +15,48 @@ body{font-family: Radikal,sans-serif; letter-spacing: 3px;}
 .text-presentation{position: absolute; z-index: 1;  line-height: 64px; font-weight: 500; }
 .biographie{line-height: 40px; font-weight: 100;}
 /* partie réalisation */
-li{list-style: none;}
+a{ color: black;}
+.button-bootstrap { border: none; background: none; text-align: center; transition: all 0.5s; cursor: pointer; margin: 5px; color: black;}  
+.button-bootstrap span {cursor: pointer;display: inline-block;position: relative;transition: 0.1s;}
+.button-bootstrap span:after {content: 'BOOTSRAP';position: absolute;opacity: 0;top: 0;right: -20px;transition: 0.9s; }
+.button-bootstrap:hover span {padding-right: 114px; color: black;}
+.button-bootstrap:hover span:after {opacity: 1;right: 0; }
+.button-javascript { border: none; background: none; text-align: center; transition: all 0.5s; cursor: pointer; margin: 5px; color: black;}  
+.button-javascript span {cursor: pointer;display: inline-block;position: relative;transition: 0.1s;}
+.button-javascript span:after {content: 'JAVASCRIPT';position: absolute;opacity: 0;top: 0;right: -20px;transition: 0.5s; }
+.button-javascript:hover span {padding-right: 130px; color: black;}
+.button-javascript:hover span:after {opacity: 1;right: 0; }
+.button-php { border: none; background: none; text-align: center; transition: all 0.5s; cursor: pointer; margin: 5px; color: black;}  
+.button-php span {cursor: pointer;display: inline-block;position: relative;transition: 0.1s;}
+.button-php span:after {content: 'PHP';position: absolute;opacity: 0;top: 0;right: -20px;transition: 0.5s; }
+.button-php:hover span {padding-right: 30px; color: black;}
+.button-php:hover span:after {opacity: 1;right: 0; }
+.button-wordpress { border: none; background: none; text-align: center; transition: all 0.5s; cursor: pointer; margin: 5px; color: black;}  
+.button-wordpress span {cursor: pointer;display: inline-block;position: relative;transition: 0.1s;}
+.button-wordpress span:after {content: 'WORDPRESS';position: absolute;opacity: 0;top: 0;right: -20px;transition: 0.5s; }
+.button-wordpress:hover span {padding-right: 132px; color: black;}
+.button-wordpress:hover span:after {opacity: 1;right: 0; }
+.button-symfony { border: none; background: none; text-align: center; transition: all 0.5s; cursor: pointer; margin: 5px; color: black;}  
+.button-symfony span {cursor: pointer;display: inline-block;position: relative;transition: 0.1s;}
+.button-symfony span:after {content: 'SYMFONY';position: absolute;opacity: 0;top: 0;right: -20px;transition: 0.5s; }
+.button-symfony:hover span {padding-right: 99px; color: black;}
+.button-symfony:hover span:after {opacity: 1;right: 0; }
+.nav-competence{display: block;}
+/* partie slider */
+.img-slider{width: 700px; height: 405px;}
+.app {width: 80%;margin: auto;text-align: center;}
+.slider-wrapper {width: 100%; position: relative; height: 425px;}
+.slider-item {position: absolute; top: 0;left: 0;width: 100%;height: 100%; opacity: 0;}
+.slider-item.active {opacity:1;-webkit-animation-name: fade;-webkit-animation-duration: 0.5s;animation-name: fade;animation-duration: 0.5s;}
+.slider-nav {width: 100%;margin-top: 15px;}
 
-  .bootstrap:hover {
-    content: 'Text affiche lors du hover';
-  }
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/*  */

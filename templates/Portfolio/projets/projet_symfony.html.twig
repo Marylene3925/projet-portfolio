@@ -1,0 +1,31 @@
+
+{% block stylesheets %}
+    <link href=" https://bootswatch.com/4/journal/bootstrap.min.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/projet.css') }}">			
+{% endblock %}
+
+{% extends "base.html.twig" %}
+
+{% block title %}Accueil | {{ parent() }}{% endblock %}
+
+
+{% block body %}
+
+    {% block content %}
+
+   <div class="container" >           
+        <div class="container" >
+            <div class="btn-effect text-left pt-7 pulsate-bck">
+                <a href="{{ path('symfony') }}">
+                    <p class="btn-cercle"><img src="https://img.icons8.com/carbon-copy/100/000000/circled-left-2.png"/></p>
+                   
+                </a>
+            </div>
+        </div>
+    </div>
+
+    {% endblock %}
+
+{% endblock %}
+
