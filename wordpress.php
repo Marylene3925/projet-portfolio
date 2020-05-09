@@ -10,49 +10,62 @@
 </head>
 <body>
 
-<div class="menu">   
-
-    <nav class="navbar navbar-expand-lg navbar-light " id=menu>
-        <button id="btn_nav" class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+<div class="d-flex justify-content-between">
+    <nav class="navbar navbar-expand-lg navbar-light " id="menu">
+        <button id="btn_nav" class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">        
+        <div>
+            <p class="bar_btn">&#8212;</p>
+            <p class=" mot-menu ">menu</p>
+            <p class="bar_btn">&#8212;</p>
+            </div>
         </button>
-        <div class="navbar-collapse.show collapse show link_menu" id="navbarNavAltMarkup">
-            <ul class="navbar-nav d-flex flex-column ">
+
+        
+        <div class="collapse navbar-collapse.show" id="navbarNav">
+            <ul class="navbar-nav d-flex  flex-column">
                 <a class="nav-item nav-link  " href="#présentation">Présentation</a>
                 <a class="nav-item nav-link " href="#compétences">Compétences</a>
                 <a class="nav-item nav-link " href="#réalisations">Réalisations</a>
                 <a class="nav-item nav-link " href="#parcours">Parcours</a>
                 <a class="nav-item nav-link " href="#contact">contact</a>
             </ul>
-        </div>
-
-        <div class="d-flex mot-menu">menu</div>
+        
+        </div>        
     </nav>
 </div>
 
 <div class="container p-0">
 
+    <div class="container-nav">
+        <nav class="d-flex justify-content-between">
+            <div class="font-weight-bolder nav_contact"><a href="index.php #header">Marylène Mougeot</a></div>
+
+            <div class="nav_contact_mail "><a href="#">me contacter<img
+                        src="https://img.icons8.com/carbon-copy/100/000000/important-mail.png" class="img-mail "></a>
+            </div> 
+        </nav>
+    </diV>
+
     <div class="scrolling-box">    
  
-         <div class="d-flex justify-content-center text-uppercase font-weight-bold fts3 mb-2 pt-5 title-partie">
-                <p>Mes réalisations <br> <span class="d-flex justify-content-center word-spacing-1"> &#47; &#47; &#47;
-                    </span> </p>
-            </div>
+    <div class="d-flex justify-content-center text-uppercase font-weight-bold fts3 mb-2 pt-5 title-partie">           
+        <p><a href="index.php #bootstrap ">Retouner à la partie réalisations</a> <br> <span class="d-flex justify-content-center word-spacing-1"> &#47; &#47; &#47;</span></p>            
+    </div>
 
         <div class=" d-flex justify-content-around pt-7">
 
             <div class="col- col-sm- col-md- col-lg- col-xl-2">
-                <p class="fts5 mt-4 "><span class="border-bottom border-dark">symfony</span></p>
+                <p class="fts5 mt-4 "><span class="border-bottom border-dark">Wordpress</span></p>
 
-                <p class="fts5 pt-7 "><a href="{{ path('projet_symfony') }}">Mes projets</a></p>
+                <p class="fts5 pt-7 "><a href="projet_wordpress.php">Mes projets</a></p>
             </div>
 
             <div class="col- col-sm- col-md- col-lg- col-xl-6">
                 <p class="fts6 mt-4 text-center">Quelques aperçus de mes projets</p>
                 <div class="slider-wrapper">
                     <div class="slider-item blueasy">
-                        <img src="image/fantaisy.jpg" class="img-slider  border border-dark">
+                        <img src="image/lovehouse.jpg" class="img-slider  border border-dark">
                     </div>
                    
                 </div>
@@ -70,26 +83,26 @@
             </div>
 
 
-            <div class="d-flex justify-content-end pt-7">
+            <div class="d-flex justify-content-end pt-7 pr-5">
                 <div class="nav-competence">
                     <div class=" d-flex justify-content-end fts5 ">
-                        <button class="button-bootstrap"><a href="{{ path('bootstrap') }}"><span>B</span></a></button>
+                        <button class="button-bootstrap"><a href="index.php #bootstrap"><span>B</span></a></button>
                     </div>
 
                     <div class=" d-flex justify-content-end fts5">
-                        <button class="button-javascript"><a href="{{ path('javascript') }}"><span>J</span></a></button>
+                        <button class="button-javascript"><a href="javascript.php"><span>J</span></a></button>
                     </div>
 
                     <div class=" d-flex justify-content-end fts5">
-                        <button class="button-php"><a href="{{ path('php') }}"><span>P</span></a></button>
+                        <button class="button-php"><a href="php.php"><span>P</span></a></button>
                     </div>
 
                     <div class=" d-flex justify-content-end fts5">
-                        <button class="button-symfony"><a href="{{ path('symfony') }}"><span>S</span></a></button>
+                        <button class="button-symfony"><a href="symfony.php"><span>S</span></a></button>
                     </div>
 
                     <div class=" d-flex justify-content-end fts5">
-                        <button class="button-wordpress"><a href="{{ path('wordpress') }}"><span>W</span></a></button>
+                        <button class="button-wordpress"><a href="wordpress.php"><span>W</span></a></button>
                     </div>
                 </div>
             </div>   
