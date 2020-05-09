@@ -296,7 +296,7 @@
                     </p>
 
                     <p>
-                        <a href="#" target="_blank">
+                        <a href="https://github.com/Marylene3925/" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                                 width="31" height="31"
                                 viewBox="0 0 172 172"
@@ -307,7 +307,11 @@
 
 
                     <p>
-                        <a href="#" target="_blank">
+                        <a href="http://localhost/projet-portfolio/CV-Marylène-Mougeot.pdf " target="_blank">
+
+
+
+
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                             width="50" height="50"
                             viewBox="0 0 172 172"
