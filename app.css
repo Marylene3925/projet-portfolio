@@ -1,4 +1,5 @@
-body{font-family: Radikal,sans-serif; letter-spacing: 3px; }
+body{font-family: Radikal,sans-serif; letter-spacing: 3px; cursor: url("image/cursor3.png"), pointer;}
+.color{color: rgba(128, 128, 128, 0.404);}
 a{ color: black;}
 a:hover{color: black;}
 a:link{text-decoration:none;}
@@ -15,7 +16,7 @@ a:link{text-decoration:none;}
  /* navbar  */
 #menu {position: fixed;margin-top: 22rem;}
 .bar_btn{transform: translateX(-5px)}
-.navbar-expand-lg .navbar-toggler { display: flex; margin-left: 0.3rem; border: none;}
+.navbar-expand-lg .navbar-toggler { display: flex; margin-top: 0.3rem; border: none;}
 .mot-menu{ transform-style: preserve-3d;transition: transform 200ms ease 0s, opacity 200ms ease 0s;transform: translateX(-8px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(-90deg); opacity: 1; cursor: pointer; }
 .mot-menu:hover{transform-style: preserve-3d; opacity: 1;transform: translateX(-4.5px) translateY(1px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
 #navbarNav { margin-top: 0rem!important; margin-right: 35rem!important;}
@@ -24,7 +25,11 @@ a:link{text-decoration:none;}
 .nav_contact  a {text-decoration: none; color: black;}
 .img-mail{width: 60px;}
 /* partie du header */
-.partie-header{height: 100vh;}
+.partie-header{height: 100vh; background-image: url(image/a.jpg); background-size: cover;}
+/* partie compétences */
+.shadow_box{box-shadow: 10px 5px 5px rgba(10, 10, 10, 0.473);}
+.block_competence{transition: 0.25s linear;}
+.block_competence:hover {transform: translateY(-20px)}
 /* partie présentation */
 .logo-img{width: 380px;}
 .title-partie{font-weight: 700;}
@@ -32,7 +37,7 @@ a:link{text-decoration:none;}
 .text-presentation{position: absolute; z-index: 1;  line-height: 64px; font-weight: 500; }
 .biographie{line-height: 40px; font-weight: 100;}
 /* partie réalisation */
-.button-bootstrap { border: none; background: none; text-align: center; transition: all 0.5s; cursor: pointer; margin: 5px; color: black;}  
+.button-bootstrap { border: none; background: none; text-align: center; transition: all 0.5s; cursor: pointer; margin: 5px; color: black; }  
 .button-bootstrap span {cursor: pointer;display: inline-block;position: relative;transition: 0.1s;}
 .button-bootstrap span:after {content: 'BOOTSRAP';position: absolute;opacity: 0;top: 0;right: -20px;transition: 0.9s; }
 .button-bootstrap:hover span {padding-right: 114px; color: black;}
@@ -66,10 +71,12 @@ a:link{text-decoration:none;}
 .slider-item.active {opacity:1;-webkit-animation-name: fade;-webkit-animation-duration: 0.5s;animation-name: fade;animation-duration: 0.5s;}
 .slider-nav {width: 100%;margin-top: 15px;}
 /* partie projet_bootstrap */
-.img_projet_size{width: 550px; margin-bottom: 5rem; cursor: pointer;}
-.btn-retour-rea{cursor: pointer;}
+.img_projet_size{width: 550px; margin-bottom: 5rem; cursor: pointer; height: 275px;}
+.img_blueasy {position: relative; width: auto;}  
+.hover-img-blueasy {position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 275px; width: auto; opacity: 0; transition: .5s ease; background-color: rgba(128, 128, 128, 0.87); background-size: cover; cursor: pointer;padding-top: 8rem;}
+.img_blueasy:hover .hover-img-blueasy {opacity: 1;}
 /* partie contact */
-.little-form{ border-radius: 10px; background-color: rgba(128, 128, 128, 0.404);border: none; margin-bottom: 10px; padding-left: 10px; width: 225px; 
+.little-form{ border-radius: 10px; background-color: rgba(128, 128, 128, 0.404);border: none; margin-bottom: 10px; padding-left: 10px; width: 300px; 
   outline: none; font-size: 13px; height: 30px;}
-textarea{border-radius: 10px; background-color: rgba(128, 128, 128, 0.404);border: none; width: 225px; padding-left: 10px;}
+textarea{border-radius: 10px; background-color: rgba(128, 128, 128, 0.404);border: none; width: 300px; padding-left: 10px;}
 .btn_form {border-radius: 10px; background-color: rgba(128, 128, 128, 0.404);border: none; width: 80px; display: flex; color: rgba(0, 0, 0, 0.404);padding-left: 10px;}

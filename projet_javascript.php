@@ -25,11 +25,11 @@
         
         <div class="collapse navbar-collapse.show" id="navbarNav">
             <ul class="navbar-nav d-flex  flex-column">
-                <a class="nav-item nav-link  " href="#présentation">Présentation</a>
-                <a class="nav-item nav-link " href="#compétences">Compétences</a>
-                <a class="nav-item nav-link " href="#réalisations">Réalisations</a>
-                <a class="nav-item nav-link " href="#parcours">Parcours</a>
-                <a class="nav-item nav-link " href="#contact">contact</a>
+                <a class="nav-item nav-link  " href="index.php #présentation">Présentation</a>
+                <a class="nav-item nav-link " href="index.php #compétences">Compétences</a>
+                <a class="nav-item nav-link " href="index.php #réalisations">Réalisations</a>
+                <a class="nav-item nav-link " href="index.php #parcours">Parcours</a>
+                <a class="nav-item nav-link " href="index.php #contact">contact</a>
             </ul>
         
         </div>        
@@ -42,7 +42,7 @@
         <nav class="d-flex justify-content-between">
             <div class="font-weight-bolder nav_contact"><a href="index.php #header">Marylène Mougeot</a></div>
             <div class="pt-3 btn-retour-rea"><a href="javascript.php">Retour </a></div>
-            <div class="nav_contact_mail "><a href="#contact">me contacter<img
+            <div class="nav_contact_mail "><a href="index.php #contact">me contacter<img
                         src="https://img.icons8.com/carbon-copy/100/000000/important-mail.png" class="img-mail "></a>
             </div> 
         </nav>
@@ -61,7 +61,12 @@
         <div class="pt-7">
 
             <div class="col- col-sm- col-md- col-lg- col-xl-12 justify-content-around d-flex flex-wrap mb-5">          
-                <div><a href="https://marylenem.promo-37.codeur.online/jeux//" target="_blank"><img src="image/flappy.png" alt="" class="img_projet_size border border-dark"></a></div>         
+                <div class="img_blueasy">
+                    <a href="https://marylenem.promo-37.codeur.online/jeux//" target="_blank">
+                    <img src="image/flappy.png" alt="" class="img_projet_size border border-dark">
+                    
+                    <div class="hover-img-blueasy text-light">Création d'un flappy stitch</div></a>
+                </div>         
             </div>
 
             

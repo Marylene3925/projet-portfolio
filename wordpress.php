@@ -24,11 +24,11 @@
         
         <div class="collapse navbar-collapse.show" id="navbarNav">
             <ul class="navbar-nav d-flex  flex-column">
-                <a class="nav-item nav-link  " href="#présentation">Présentation</a>
-                <a class="nav-item nav-link " href="#compétences">Compétences</a>
-                <a class="nav-item nav-link " href="#réalisations">Réalisations</a>
-                <a class="nav-item nav-link " href="#parcours">Parcours</a>
-                <a class="nav-item nav-link " href="#contact">contact</a>
+                <a class="nav-item nav-link  " href="index.php #présentation">Présentation</a>
+                <a class="nav-item nav-link " href="index.php #compétences">Compétences</a>
+                <a class="nav-item nav-link " href="index.php #réalisations">Réalisations</a>
+                <a class="nav-item nav-link " href="index.php #parcours">Parcours</a>
+                <a class="nav-item nav-link " href="index.php #contact">contact</a>
             </ul>
         
         </div>        
@@ -37,11 +37,11 @@
 
 <div class="container p-0">
 
-    <div class="container-nav">
+<div class="container-nav">
         <nav class="d-flex justify-content-between">
             <div class="font-weight-bolder nav_contact"><a href="index.php #header">Marylène Mougeot</a></div>
 
-            <div class="nav_contact_mail "><a href="#">me contacter<img
+            <div class="nav_contact_mail "><a href="index.php #contact">me contacter<img
                         src="https://img.icons8.com/carbon-copy/100/000000/important-mail.png" class="img-mail "></a>
             </div> 
         </nav>
